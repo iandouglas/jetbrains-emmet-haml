@@ -1,9 +1,26 @@
 jetbrains-emmet-haml
 ====================
 
-Collection of emmet.io shortcuts for JetBrains editors for HAML documents
+Collection of emmet.io shortcuts for JetBrains editors for HAML documents.
 
-File locations to symlink (so far):
+For example, tyle this into a .haml file:
+
+```
+link:css
+```
+
+... then hit TAB, and it should turn into this:
+
+```
+%link(rel='stylesheet' type='text/css' href='.css')
+```
+
+... and place the cursor inside the href quotes for you to type in the CSS stylesheet filename.
+
+Installation
+------------
+
+I've symlinked the "Zen HAML.xml" file under the following paths. I'll test more as I'm able.
 
 | OS | Editor/Version | Location |
 | --- | --- | --- |
