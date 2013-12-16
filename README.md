@@ -42,3 +42,7 @@ Contribute
 ----------
 Contributions are more than welcome.
 
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/iandouglas/jetbrains-emmet-haml/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
