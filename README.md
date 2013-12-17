@@ -31,12 +31,14 @@ I've symlinked the "Zen HAML.xml" file under the following paths. I'll test more
 | Mac OS X Mavericks | RubyMine 6.x | `~/Library/Preferences/RubyMine60/templates` |
 
 
+If you've never looked at Live Templates in the JetBrains editors before, go into Settings > Live Templates, add a new Template Group and add a live template shortcut to that new group, then click OK to close the dialog, which should populate your respective /templates/ folder with things like "Zen HTML.xml" and "html_xml.xml" and such. At that point, symlink the "Zen HAML.xml" from where you checked out this repo to that templates folder. Restart your editor completely (changes don't auto-reload, only when the editor starts up fresh) and you'll be all set.
+
 If you find other file locations based on OS/editor/version, please add it to this README.
 
 Cautions
 --------
 1. If you make edits to this Live Template within a JetBrains editor, it may remove your symlink.
-1. Adding this file to RubyMine wants to remove the Python and Django flags on each element. Tips to fix this are welcome.
+1. Adding this file to RubyMine wants to remove the Python and Django flags on each element. Tips to fix this are welcome. You can always "chmod 400 Zen\ HAML.xml" in the repo folder but then your editor will throw an error that the file is unwriteable (duh).
 
 Contribute
 ----------
